@@ -1,0 +1,15 @@
+.StudentInput {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 15px;
+}
+
+.StudentInput input {
+    flex:1;
+    padding: 6px;
+}
+
+.StudentInput button {    
+    padding: 6px 10px;
+    cursor: pointer;
+}

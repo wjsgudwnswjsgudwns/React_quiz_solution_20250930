@@ -1,0 +1,11 @@
+.StudentList {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.StudentList th,
+.StudentList td {
+    border: 1px solid gray;
+    padding: 8px;
+}

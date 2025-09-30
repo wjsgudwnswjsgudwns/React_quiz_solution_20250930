@@ -1,0 +1,21 @@
+.StudentItem td {
+    text-align: center;
+}
+
+.StudentItem button {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.StudentItem button:hover {
+    background-color: rgb(240, 112, 191);
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
