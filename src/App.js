@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import './App.css';
 import StudentInput from './component/StudentInput';
 import StudentList from './component/StudentList';
+import TestComp from './component/TestComp'
 
 function App() {
 
@@ -43,6 +44,8 @@ function App() {
       <h2>학생 성적 관리</h2>
       <StudentInput onCreateStudent={onCreateStudent} />
       <StudentList students={students} onDelete={deleteStudent} />
+      <hr />
+      <TestComp />
     </div>
   );
 }
